@@ -1,5 +1,5 @@
 #!/usr/bin/php
-<?
+<?php
 require('tv_geturl.php');
 
 $UserId = "654321";
@@ -8,12 +8,12 @@ $dest_hash = "";
 $SKPrime = "";
 $ctx = "";
 //$Guid =  "7e509404-9d7c-46b4-8f6a-e2a9668ad184";
-$deviceId =  "7e509404-9d7c-46b4-8f6a-e2a9668ad184";
+$deviceId =  "43515942-fbbc-40f7-942f-2b1f8b0fec9d";
 $hash = "";
 $AES_key= "";
 $lastRequestId = "";
 $sessionId = 0;
-$tvIP = "192.168.0.21";
+$tvIP = "192.168.2.100";
 $tvPort = "8080";
 
 function getFullUrl($urlPath)
